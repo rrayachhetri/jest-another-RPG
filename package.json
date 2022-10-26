@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type":"module",
   "scripts": {
     "test": "jest"
   },
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/rrayachhetri/jest-another-RPG#readme",
   "devDependencies": {
     "jest": "^29.2.1"
+  },
+  "dependencies": {
+    "inquirer": "^9.1.4"
   }
 }
